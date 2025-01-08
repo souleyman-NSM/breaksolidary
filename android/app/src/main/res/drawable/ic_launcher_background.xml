@@ -1,0 +1,8 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Définir la couleur de fond de l'écran de démarrage -->
+  <item android:drawable="@color/splashscreen_background"/>
+  <!-- Ajouter l'image du logo de l'écran de démarrage -->
+  <item>
+    <bitmap android:gravity="center" android:src="@drawable/splashscreen_logo"/>
+  </item>
+</layer-list>
